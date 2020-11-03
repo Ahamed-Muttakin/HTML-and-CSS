@@ -1,0 +1,34 @@
+body{
+    width: 100%;
+    background: url(bg.jpg) repeat-y ;
+}
+ul{background-color: aquamarine; width: 510px; padding: 15px;}
+li{background-color: cornflowerblue; width: 500px; margin: 5px; padding: 5px;}
+/*paragraph css */
+p{ font-size: 16px; 
+    text-decoration: none;
+    background-image: url(bg.jpg);
+    text-align: left;
+    line-height: 25px;
+    letter-spacing: 0px;
+    padding: 10px;
+    color: rgb(175, 15, 47);}
+    img{width: 400px; height: 400px;}
+figcaption{margin-left: 150px;
+            text-shadow: 1px 1px 1px cyan;        
+    }
+iframe{width: 500px ; height: 500px;}
+p,figcaption,legend{font-family: 'Piedra', cursive;}
+.mbg{height: 50px; width: 500px;}
+table{width:600px;}
+table,td,th{border: 5px solid rgb(0, 98, 128)}
+th{background-color: lawngreen; color: orangered;}
+td{background-color: red;}
+#me{text-shadow: 1px 1px 1px rgb(68, 0, 255);
+color: rgb(20, 220, 70);}
+h2{background-color: black; color: white; width: 200px; text-align: center; box-shadow: 0px 0px 35px 9px black;}
+h3{margin: 90px; transform: rotate(365deg);
+    -webkit-transform: rotate(); <!--when transform doesn't work-->
+    -ms-transform: rotate(); <!--when this things doesn't work-->
+}
+button{height: 50px; width: 80px; border-radius: 25px 25px 25px 25px;}
